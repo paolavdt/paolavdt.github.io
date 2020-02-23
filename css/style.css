@@ -25,7 +25,7 @@ header {
     width: 15%;
 }
 
-h1 {
+h1, .section-title {
     text-align: center;
     font-family: 'Georgia', 'PT Serif', sans-serif;
 }
@@ -36,4 +36,33 @@ h1 {
     margin-right: auto;
     margin-top: 50px;
     height: 10%;
+}
+
+/* Maybe TODO: change color of links to color of icon --> see if can do this for arrow */
+.menu-link {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-link:hover {
+    /* color: #DC5039; */
+    color: #0C657E;
+    text-decoration: none;
+    cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAaCAMAAABigZc2AAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAFpJREFUeNp9jUEOwEAIAhn+/+imjbs1bC0XzQioSUAAYZs0mcVY051RbGXfFsyxibTVHXhuhXYlbuRGPbe7kz3g0wf679OuizDBdCaberLE4AsjGliD02eNugA+MQFAPqynHQAAAABJRU5ErkJggg==),auto;
+}
+
+.project-section {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 4em;
+    margin-top: 50px;
+}
+
+.project-option {
+    padding-top: 30px;
 }
